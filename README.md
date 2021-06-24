@@ -4,10 +4,10 @@ The Environment & Society Portal is a gateway to open access resources on the hu
 
 ## Server Setup
 
-* Linux https://www.linuxfoundation.org/
-* MySQL https://www.mysql.com/ / MariaDB https://mariadb.org/
-* Apache HTTP Server https://httpd.apache.org/
-* PHP https://www.php.net/
+* Linux <https://www.linuxfoundation.org>
+* MySQL <https://www.mysql.com / MariaDB https://mariadb.org>
+* Apache HTTP Server <https://httpd.apache.org>
+* PHP <https://www.php.net/>
 
 ## Content Management
 
