@@ -49,25 +49,26 @@ The [Portal search](http://www.environmentandsociety.org/search) provides a face
 Curated by experts in the environmental humanities, [Virtual Exhibitions](http://www.environmentandsociety.org/exhibitions) put digitized material into interpretive contexts.The exhibitions can be fully managed within a custom editorial backend including reusable components and integration of Open-source libraries like TimelineJS and Masonry.js.
 
 * Masonry.js <https://github.com/desandro/masonry>
+
+## Timeline
+
+The Portal features two types of timelines. The main [timeline](http://www.environmentandsociety.org/tools/timeline) (Wellcome) that serves to index Portal content chronologically, and the JS Timelines, which are an interactive subfeature to Portal virtual exhibitions. Both timelines use DD MM YYYY dates that are relevant to an event that is central to the content item, in most cases this is not a date of publication, unless this is a significant event. It is possible to provide a range of years. This is represented in the Wellcome timeline at the start date, and in the JS Timeline as a bar showing the range.
+
+* Wellcome Timeline <https://github.com/wellcometrust/timeline>
 * TimelineJS <https://timeline.knightlab.com>
 
 ## Keyword Explorer
 
-The [Keyword Explorer](http://www.environmentandsociety.org/tools/keywords) lets you browse Portal content by themes and tags, narrowing your results to content matching your chosen keywords. A custom user interface built with D3.js combined with a fast responding Solr server make the Keyword explorer an intuitive exploration tool.
+The [keyword explorer](http://www.environmentandsociety.org/tools/keywords) helps users find thematically-related content. It relies on a custom-created controlled vocabulary for environmental history and humanities of around 400 terms (see the file uploaded above, ES&P_TagTaxonomy_2021.xlsx). We used the 11 founding themes of the Rachel Carson Center as an organizational starting point, yet themes and tags are independent, not hierarchically related. We decided to make the hierarchy flat, in order to give human editors more flexibility and control in assigning tags and forming connections. This means all tags are at the same level and none is, for the CMS, parent to another. There is, however, a soft-hierarchy (tags in column 1 are parents to tags in column 2 and so on). This means that, while tagging, the editor should tag each term also with its “parents” (e.g., an entry tagged “birds” must be tagged also with “animals”). Editors omit the parent if they think that the “parent” tag is unrelated to the specific item. In hindsight, this may have been unpragmatic, as it requires editors to enter all parent terms in most cases. This means consulting the Tag Taxonomy whenever tags are applied. Would have automated, perhaps.
+The keyword taxonomy is a work in progress: unused tags may be removed, underused tags may be merged, and new tags may be added. As too many tags with few assignations will dilute their functionality, we have added new tags very sparingly. We are certain you can find many to add!
 
 * Apache Solr Search <https://solr.apache.org>
 * D3.js <https://d3js.org>
 
-## Portal Timeline
+## Map Viewer
 
-The interactive [timeline](http://www.environmentandsociety.org/tools/timeline) allows you to browse Environment & Society Portal content chronologically. It is built on the Open-source timeline by the Wellcome Library with further customizations and improvements for large data sets.
+The [map viewer](http://www.environmentandsociety.org/tools/map) is powered by data editors enter from the open-source database [Geonames](https://www.geonames.org/). For practical reasons, we use point data only. Contributors are encouraged to name the most specific place(s) relevant to the topic of their contributions.
 
-* Wellcome Timeline <https://github.com/wellcometrust/timeline>
-
-## Portal Map
-
-The [Map Viewer](http://www.environmentandsociety.org/tools/map) displays Portal content by geographic location and allows you to filter by keyword, content type or theme.
-Backbone.js <https://backbonejs.org> 
-
+* Backbone.js <https://backbonejs.org> 
 * Apache Solr Search <https://solr.apache.org>
 * Google Maps Integration
