@@ -1,6 +1,10 @@
 # Environment & Society Portal
 
-The [Environment & Society Portal](http://www.environmentandsociety.org/) is a gateway to open access resources on the human-environment relationship. It makes environmental humanities research accessible to academic communities and the interested public worldwide, reaching more than one million users. The portal is built on the Open-source Content Management Framework Drupal (Version 7), integrating various other Open-source libraries, plugins and technologies.
+The [Environment & Society Portal](http://www.environmentandsociety.org/) is the open-access digital publication platform and archive of the [Rachel Carson Center for Environment and Society](http://www.carsoncenter.uni-muenchen.de/index.html) (RCC), a nonprofit joint initiative of the [LMU (University of Munich)](http://www.en.uni-muenchen.de/index.html) and the [Deutsches Museum](http://www.deutsches-museum.de/en), funded by the [German Federal Ministry for Education and Research](https://www.bmbf.de/bmbf/en/home/home_node.html). As such, it reflects the research themes of the Rachel Carson Center and its [fellows](http://www.carsoncenter.uni-muenchen.de/fellows/index.html), who are international experts in related fields. 
+
+Following Rachel Carson's example, the Environment & Society Portal makes environmental research accessible to the public and diverse scholarly communities. Today, with much research locked behind paywalls, the Portal works to make knowledge open and discoverable. Its peer-reviewed OA e-journal [_Arcadia_](http://www.environmentandsociety.org/arcadia) showcases the work of early-career researchers in environmental history; [29 virtual exhibitions](http://www.environmentandsociety.org/exhibitions) present the work of our fellows to broad public audiences; the multimedia library presents books, films, journal articles, and archival documents. The content is made discoverable with three interactive tools (map, timeline, keyword explorer), reaching more than one million unique users. 
+
+The portal is built on the open-source Content Management Framework Drupal (Version 7), integrating various other open-source libraries, plugins and technologies.
 
 ## Server Setup
 
